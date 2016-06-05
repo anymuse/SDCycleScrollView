@@ -22,6 +22,6 @@ s.source_files  = "SDCycleScrollView/Lib/SDCycleScrollView/**/*.{h,m}"
 
 
 s.requires_arc = true
-s.dependency 'YYWebImage'
+s.dependency 'YYKit'
 
 end
