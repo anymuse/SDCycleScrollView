@@ -15,14 +15,13 @@ s.platform     = :ios
 s.platform     = :ios, "7.0"
 
 
-s.source       = { :git => "https://github.com/gsdios/SDCycleScrollView.git", :tag => "1.64"}
+s.source       = { :git => "https://github.com/anymuse/SDCycleScrollView.git", :tag => "1.64"}
 
 
 s.source_files  = "SDCycleScrollView/Lib/SDCycleScrollView/**/*.{h,m}"
 
 
 s.requires_arc = true
-
-s.dependency 'SDWebImage', '~> 3.7'
+s.dependency 'YYWebImage'
 
 end
